@@ -37,7 +37,7 @@ app.post('/api/get-upload-url', async (req, res) => {
       expiresIn: 3600,
     });
 
-    const fileUrl = `https://${process.env.S3_BUCKET}.s3.${process.env.AWS_REGION}.amazonaws.com/${uniqueFileName}`;
+    const fileUrl = `https://ca3-project.s3.eu-north-1.amazonaws.com/${uniqueFileName}`;
 
     res.json({ uploadUrl, fileUrl });
   } catch (error) {
