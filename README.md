@@ -49,10 +49,16 @@ Before running the project, ensure you have the following:
 
 ## Running the Project
 
-To start the development server, run:
+To start the frontend , run:
 
 ```bash
 npm run dev
 ```
 
+To start the backend , run:
+
+```bash
+cd server
+node server.js
+```
 
