@@ -1,0 +1,94 @@
+.upload-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.upload-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.upload-dropzone {
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+  background-color: white;
+}
+
+.upload-dropzone:hover,
+.upload-dropzone.uploading {
+  border-color: #1890ff;
+  background-color: #f0f8ff;
+}
+
+.upload-icon {
+  color: #1890ff;
+  margin-bottom: 1rem;
+}
+
+.upload-text {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.upload-hint {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.upload-error {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #fff1f0;
+  border: 1px solid #ffccc7;
+  border-radius: 4px;
+  color: #cf1322;
+}
+
+.upload-list {
+  margin-top: 1.5rem;
+}
+
+.upload-list-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.upload-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.file-name {
+  flex: 1;
+  margin-right: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-link {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.file-link:hover {
+  text-decoration: underline;
+}

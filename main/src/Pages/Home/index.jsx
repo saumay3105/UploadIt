@@ -12,7 +12,7 @@ const Home = () => {
       
       <div className="home-actions">
         <Link to="/upload" className="upload-link">Upload Files</Link>
-        <Link to="/all" className="upload-link">View Uploaded Files</Link>
+        <Link to="/files" className="upload-link">View Uploaded Files</Link>
       </div>
     </div>
   );
